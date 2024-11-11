@@ -1,0 +1,56 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6495ed;
+  height: 100vh;
+}
+
+.quiz{
+    background-color: azure;
+    padding: 20px;
+    border-radius:20px;
+    width: 50%;
+    min-width: 400px;
+}
+
+.btn{
+    background-color: aliceblue;
+    width: 100%;
+    text-align: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover:not(button[disabled]){
+    background-color: black;
+    color: white;
+}
+
+.btnCorrect{
+    background-color: greenyellow;
+    width: 100%;
+    text-align: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+}
+
+.btnWrong{
+    background-color: orangered;
+    width: 100%;
+    text-align: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+}
+
+.next{
+    background-color:aquamarine;
+    padding: 8px 20px;
+    margin: 10px auto;
+    display: none;
+}
+
+.cursorDisable{
+    cursor:no-drop;
+}
